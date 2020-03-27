@@ -1,0 +1,17 @@
+{
+  "name": "tracing-helper",
+  "version": "1.0.0",
+  "description": "Provides distributed tracing helpers/utilities",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Fateme Ahmadi",
+  "license": "MIT",
+  "dependencies": {
+    "@opentelemetry/api": "^0.4.0",
+    "@opentelemetry/core": "^0.4.0",
+    "@opentelemetry/exporter-zipkin": "^0.4.0",
+    "@opentelemetry/node": "^0.4.0",
+    "@opentelemetry/tracing": "^0.4.0",
+    "express-http-context": "^1.2.3"
+  }
+}
